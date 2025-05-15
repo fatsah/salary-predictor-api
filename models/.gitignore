@@ -1,5 +1,6 @@
 __pycache__/
 *.pyc
 models/
-*.png
-.env
+data/
+*.pkl
+*.csv
