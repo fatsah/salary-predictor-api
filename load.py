@@ -1,5 +1,6 @@
 import pandas as pd
 
+
 # Chargement
 df = pd.read_csv("data/survey_results_public.csv", encoding='utf-8')
 print("Dimensions initiales :", df.shape)
