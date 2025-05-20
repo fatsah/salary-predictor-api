@@ -7,9 +7,9 @@ print("Dimensions initiales :", df.shape)
 
 # Colonnes utiles
 cols_of_interest = [
-    "Country", "Employment", "RemoteWork", "EdLevel",
+    "ResponseId", "Country", "Employment", "RemoteWork", "EdLevel",
     "YearsCodePro", "DevType", "LanguageHaveWorkedWith",
-    "CompTotal", "ConvertedCompYearly"
+    "CompTotal", "ConvertedCompYearly", "Age"
 ]
 
 # Conserver uniquement ces colonnes (même si elles ont des NaN)
